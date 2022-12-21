@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.carousel-inner {
+  background-color: rgba(76, 148, 211, 0.077);
+  box-shadow: 0 40px 20px -10px rgba(76, 148, 211, 0.077);
+}
+
+
+.imgSize {
+  height: 500px;
+  width: 500px;
+  border-radius: 5px;
+  margin: 0px auto;
+}
+.divSize {
+  height: calc(var(--carousel-height) * 0.85);
+  max-width: var(--slide-width);
+}
