@@ -1,12 +1,35 @@
 .App {
   text-align: center;
+  background-color: rgba(76, 148, 211, 0.077);
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  width: auto;
+  background-color: rgba(76, 148, 211, 0.077);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  background: no-repeat center;
+  background-size: 100% 100%;
+  /* height: 630px; */
 }
 
 .carousel-inner {
   background-color: rgba(76, 148, 211, 0.077);
   box-shadow: 0 40px 20px -10px rgba(76, 148, 211, 0.077);
 }
-
 
 .imgSize {
   height: 500px;
@@ -17,4 +40,185 @@
 .divSize {
   height: calc(var(--carousel-height) * 0.85);
   max-width: var(--slide-width);
+}
+
+.form-inner-container {
+  padding: 35px;
+}
+
+.form-container {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  max-width: 500px;
+  height: fit-content;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 5px;
+  padding: 10px;
+  margin: 0px auto;
+  text-align: center;
+  transition: 0.4s ease-out;
+}
+
+.loginInput {
+  display: flex;
+  border: 2px solid rgba(0, 0, 0, 0.37);
+  border-radius: 8px;
+  margin: 24px auto;
+  text-align: center;
+  padding: 5px;
+  width: 250px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.loginBtn {
+  /* background: none; */
+  /* border: 1px solid rgba(0, 0, 0, 0.247); */
+  border: none;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  min-width: 200px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.4s linear;
+  background: linear-gradient(to left, rgb(255, 255, 255) 50%, lightblue 50%)
+    right;
+  background-size: 200%;
+}
+
+.loginBtn:hover {
+  background-position: left;
+  transition: 0.4s linear;
+  border-top-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.logoutBtn {
+  border: none;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  min-width: 200px;
+  margin: 10px;
+  justify-content: end;
+  align-items: flex-end;
+  cursor: pointer;
+  transition: 0.4s linear;
+  background-color: rgba(76, 148, 211, 0.077);
+  background: linear-gradient(
+      to left,
+      rgba(76, 148, 211, 0) 50%,
+      rgb(117, 169, 187) 50%
+    )
+    right;
+  background-size: 200%;
+}
+
+.Navbar {
+  display: block;
+}
+
+.headerr {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.d-block {
+  display: block;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+.mr-auto {
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+  justify-content: center;
+  /* display: flex; */
+}
+
+.f-right {
+  float: right;
+}
+
+.logoutBtn:hover {
+  background-position: left;
+  transition: 0.4s linear;
+  border-top-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.loadingSpinnerContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingSpinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #000 transparent #555 transparent;
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+}
+
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.719);
+  border-radius: 10px;
+}
+.carousel-control-prev-icon {
+  background-color: rgba(0, 0, 0, 0.719);
+  border-radius: 10px;
+}
+
+.main-container {
+  margin-top: 5rem;
+  margin: 0px auto;
+  max-width: 400px;
+}
+
+.main-inner-container {
+  text-align: center;
+  padding: 10px;
+}
+
+.name {
+  padding-top: 62px;
+
+  margin-left: 62px;
+  font-size: 70px;
+  font-family: "Tangerine", cursive;
+  display: flex;
+}
+
+.header-wedding {
+  margin-top: 16px;
+  margin-right: 16px;
+  font-size: 50px;
+  font-family: "Tangerine", cursive;
+  display: inline-flex;
+  float: right;
 }

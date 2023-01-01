@@ -35,6 +35,9 @@ export default function Carousel() {
         ></button>
       </div>
       <div className="carousel-inner">
+        <h1 className="ml-0 mr-auto header-name">
+          Douglas & Lisa Bröllop 2023
+        </h1>
         <div className="carousel-item active">
           <img src={one} className="d-block imgSize" alt="..." />
         </div>
@@ -52,6 +55,7 @@ export default function Carousel() {
         data-bs-slide="prev"
       >
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+
         <span className="visually-hidden">Previous</span>
       </button>
       <button
@@ -60,7 +64,11 @@ export default function Carousel() {
         data-bs-target="#carouselExampleIndicators"
         data-bs-slide="next"
       >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span
+          className="carousel-control-next-icon"
+          // style={{ color: "black" }}
+          aria-hidden="true"
+        ></span>
         <span className="visually-hidden">Next</span>
       </button>
     </div>
