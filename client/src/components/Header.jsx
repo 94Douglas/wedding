@@ -19,14 +19,22 @@ function Header() {
 
   return (
     <header className="headerr">
-      <h1 className="center name">Douglas & Lisa Vigsel 2023</h1>
+      <div className="">
+        <h1 className="name">Douglas & Lisa Vigsel 2023</h1>
+      </div>
 
       <div className="mr-0 ml-auto">
-        <button className="logoutBtn" onClick={onLogout}>
-          <div>
-            <FaSignOutAlt /> Logga Ut
-          </div>
-        </button>
+        <ul>
+          <li>
+            <a>
+              <button className="logoutBtn" onClick={onLogout}>
+                <div>
+                  <FaSignOutAlt /> Logga Ut
+                </div>
+              </button>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
   );

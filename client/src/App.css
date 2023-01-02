@@ -105,8 +105,9 @@ h5 {
   padding: 12px 20px;
   min-width: 200px;
   margin: 10px;
-  justify-content: end;
-  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: flex-end; */
   cursor: pointer;
   transition: 0.4s linear;
   background-color: rgba(76, 148, 211, 0.077);
@@ -119,14 +120,20 @@ h5 {
   background-size: 200%;
 }
 
-.Navbar {
-  display: block;
-}
-
 .headerr {
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   margin-bottom: 60px;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  display: inline-block;
 }
 
 .mr-0 {
@@ -208,9 +215,10 @@ h5 {
 .name {
   padding-top: 62px;
 
-  margin-left: 62px;
   font-size: 70px;
   font-family: "Tangerine", cursive;
+  /* width: 100%; */
+  text-align: center;
   display: flex;
 }
 
