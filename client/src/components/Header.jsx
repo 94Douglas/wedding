@@ -18,25 +18,11 @@ function Header() {
   };
 
   return (
-    <header className="headerr">
-      <div className="">
+    <div>
+      <div className="center">
         <h1 className="name">Douglas & Lisa Vigsel 2023</h1>
       </div>
-
-      <div className="mr-0 ml-auto">
-        <ul>
-          <li>
-            <a>
-              <button className="logoutBtn" onClick={onLogout}>
-                <div>
-                  <FaSignOutAlt /> Logga Ut
-                </div>
-              </button>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </header>
+    </div>
   );
 }
 

@@ -17,12 +17,27 @@ function NavBar() {
     navigate("/");
   };
   return (
-    <div className="Navbar">
-      <button className="d-block mr-0 ml-auto logoutBtn" onClick={onLogout}>
-        <div>
-          <FaSignOutAlt /> Logga Ut
-        </div>
-      </button>
+    <div className="nav-bg ">
+      <ul className="nav nav-tabs font-sizing ">
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="/home">
+            Hem
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="/info">
+            Information
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link active">Plats</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link active" onClick={onLogout}>
+            <FaSignOutAlt style={{ color: "black" }} /> Logga Ut
+          </Link>
+        </li>
+      </ul>
     </div>
   );
 }

@@ -9,6 +9,7 @@ import PrivateRoute from "./components/PrivateRoute";
 
 import Login from "./pages/Login.js";
 import Home from "./pages/Home";
+import Info from "./pages/Information";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 
@@ -17,14 +18,16 @@ function App() {
   return (
     <Router>
       <div className="header">
-        <Header />
-        {/* {user ? <Carousel /> : <></>} */}
-        {/* {user ? <Header /> : <></>} */}
+        {user ? <NavBar /> : <></>}
+        {user ? <Header /> : <></>}
         <Routes>
           <Route path="/" element={<Login />} />
 
           <Route path="/home" element={<PrivateRoute />}>
             <Route path="/home" element={<Home />} />
+          </Route>
+          <Route path="/info" element={<PrivateRoute />}>
+            <Route path="/info" element={<Info />} />
           </Route>
         </Routes>
       </div>
