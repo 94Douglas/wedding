@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "../components/Carousel";
+import ImageBg from "../components/ImageBg";
 const Home = () => {
   return (
     <div className="main-container">

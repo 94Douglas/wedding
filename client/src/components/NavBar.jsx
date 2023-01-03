@@ -17,23 +17,21 @@ function NavBar() {
     navigate("/");
   };
   return (
-    <div className="nav-bg ">
-      <ul className="nav nav-tabs font-sizing ">
+    <div className="nav-bg">
+      <ul className="nav nav-tabs font-sizing">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/home">
+          <Link className="nav-link font-black" aria-current="page" to="/home">
             Hem
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/info">
+          <Link className="nav-link font-black" aria-current="page" to="/info">
             Information
           </Link>
         </li>
-        <li className="nav-item">
-          <Link className="nav-link active">Plats</Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link active" onClick={onLogout}>
+
+        <li className="nav-item flex-end ml-0 mr-auto">
+          <Link className="nav-link btn-hover-red" onClick={onLogout}>
             <FaSignOutAlt style={{ color: "black" }} /> Logga Ut
           </Link>
         </li>

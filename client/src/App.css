@@ -9,7 +9,52 @@ body {
   height: 100%;
   width: auto;
   background-color: rgba(76, 148, 211, 0.208);
+  /* background: url("./images/1.jpg") left 32px top 64px no-repeat,
+    url("./images/2.jpg") right 32px bottom 64px no-repeat,
+    rgba(76, 148, 211, 0.077);
+  background-size: 180px, 150px, auto; */
 }
+
+.bg-size {
+  /* height: 94vh; */
+  /* height: 100%; */
+  width: 100%;
+}
+
+.bg-bl {
+  padding: 8em;
+  background-image: url("./images/1.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 200px, 200px, auto;
+}
+
+.bg-image {
+  /* padding: 0em; */
+  outline: 1px solid black;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  border: none;
+  background: url("./images/1.jpg") left 32px top 0px no-repeat,
+    url("./images/2.jpg") right 32px bottom no-repeat;
+  background-size: 180px, 150px, auto;
+
+  /* rgba(76, 148, 211, 0.077); */
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* .img-bg {
+  background: url("./images/1.jpg") left 32px top 64px no-repeat,
+    url("./images/2.jpg") right 32px bottom 64px no-repeat;
+  background-size: 130px, 130px, auto;
+  height: 100%;
+  width: 100%;
+} */
 
 h1,
 h2,
@@ -22,10 +67,9 @@ h5 {
 .header {
   background: no-repeat center;
   background-size: 100% 100%;
-  
+
   /* height: 630px; */
 }
-
 
 .form-inner-container {
   padding: 35px;
@@ -86,7 +130,6 @@ h5 {
   text-align: center;
 }
 
-
 .loadingSpinnerContainer {
   position: fixed;
   top: 0;
@@ -128,7 +171,6 @@ h5 {
   font-family: "Tangerine", cursive;
 }
 
-
 .nav-bg {
   background-color: white;
   box-shadow: 0 40px 20px -10px rgba(76, 148, 211, 0.129);
@@ -139,7 +181,7 @@ h5 {
 }
 
 .font-sizing {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .main-width {
@@ -158,8 +200,30 @@ h5 {
 
 .flex-end {
   justify-content: flex-end;
+  float: right;
 }
 
 .flex {
   display: flex;
+}
+
+.font-black {
+  color: #000;
+}
+
+ul .ml-0 {
+  margin-right: 0px;
+}
+
+.mr-auto {
+  margin: 0px auto;
+}
+
+.btn-hover-red:hover {
+  color: red;
+}
+
+.width-fit {
+  width: auto;
+  max-width: 36rem;
 }
