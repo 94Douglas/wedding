@@ -18,10 +18,8 @@ function Header() {
   };
 
   return (
-    <div>
-      <div className="center">
-        <h1 className="name">Douglas & Lisa Vigsel 2023</h1>
-      </div>
+    <div className="center">
+      <h1 className="name">Douglas & Lisa Vigsel 2023</h1>
     </div>
   );
 }
