@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
+import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
@@ -21,21 +22,20 @@ function App() {
   return (
     <div>
       <Router>
-        <div>
-          {user ? <NavBar /> : <></>}
+        {/* <div> */}
+        {user ? <NavBar /> : <></>}
 
-          {user ? <Header /> : <></>}
-          <Routes>
-            <Route path="/" element={<Login />} />
+        <Routes>
+          <Route path="/" element={<Login />} />
 
-            <Route path="/home" element={<PrivateRoute />}>
-              <Route path="/home" element={<Home />} />
-            </Route>
-            <Route path="/info" element={<PrivateRoute />}>
-              <Route path="/info" element={<Info />} />
-            </Route>
-          </Routes>
-        </div>
+          <Route path="/home" element={<PrivateRoute />}>
+            <Route path="/home" element={<Home />} />
+          </Route>
+          <Route path="/info" element={<PrivateRoute />}>
+            <Route path="/info" element={<Info />} />
+          </Route>
+        </Routes>
+        {/* </div> */}
       </Router>
     </div>
   );

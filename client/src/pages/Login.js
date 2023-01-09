@@ -61,7 +61,7 @@ function Login() {
     return <Spinner />;
   }
   return (
-    <div>
+    <div className="login">
       <form onSubmit={onSubmit}>
         <div className="form-container">
           <div className="form-inner-container">
