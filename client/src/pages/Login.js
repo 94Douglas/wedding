@@ -61,35 +61,38 @@ function Login() {
     return <Spinner />;
   }
   return (
-    <div className="login">
-      <form onSubmit={onSubmit}>
-        <div className="form-container">
-          <div className="form-inner-container">
-            <h2>Logga In</h2>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              value={name}
-              onChange={onChange}
-              placeholder="Användarnamn"
-              className="loginInput"
-              required
-            />
-            <input
-              type="password"
-              id="password"
-              name="password"
-              value={password}
-              onChange={onChange}
-              placeholder="Lösenord"
-              className="loginInput"
-              required
-            />
+    <div>
+      <div className="login-bg"></div>
+      <div className="login">
+        <form onSubmit={onSubmit}>
+          <div className="form-container">
+            <div className="form-inner-container">
+              <h2>Logga In</h2>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                value={name}
+                onChange={onChange}
+                placeholder="Användarnamn"
+                className="loginInput"
+                required
+              />
+              <input
+                type="password"
+                id="password"
+                name="password"
+                value={password}
+                onChange={onChange}
+                placeholder="Lösenord"
+                className="loginInput"
+                required
+              />
+            </div>
+            <button className="loginBtn">Logga In</button>
           </div>
-          <button className="loginBtn">Logga In</button>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   );
 }

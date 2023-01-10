@@ -22,6 +22,7 @@ function NavBar() {
     <div>
       <div className="nav-bg">
         <ul className="nav nav-tabs font-sizing">
+          {/* <div className="jc-center flex"> */}
           <li className="nav-item">
             <Link
               className="nav-link font-black"
@@ -40,6 +41,7 @@ function NavBar() {
               Information
             </Link>
           </li>
+          {/* </div> */}
           <li className="nav-item flex-end ml-0 mr-auto">
             <Link className="nav-link btn-hover-red" onClick={onLogout}>
               <FaSignOutAlt style={{ color: "black" }} /> Logga Ut

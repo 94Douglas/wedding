@@ -1,10 +1,15 @@
 import React from "react";
 import Header from "../components/Header";
+
+import NoteOne from "../components/NoteComp";
+
 function Information() {
   return (
-    <div className="img-bg">
-      <Header />
-      <div className="mb">
+    <div>
+      <div className="img-bg">
+        {/* <div className="div-container"> */}
+        <Header />
+        {/* <div className="mb"></div> */}
         <div className="card jc-center mb-5 width-fit">
           <div className="card-body center">
             <h5 className="card-title">När</h5>
@@ -42,6 +47,7 @@ function Information() {
           </div>
         </div>
       </div>
+      {/* </div> */}
     </div>
   );
 }
