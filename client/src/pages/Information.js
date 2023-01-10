@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 function Information() {
   return (
-    <div>
+    <div className="img-bg">
       <Header />
       <div className="mb">
         <div className="card jc-center mb-5 width-fit">
