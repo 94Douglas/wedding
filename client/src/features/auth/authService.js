@@ -8,7 +8,7 @@ const API_URL = "/api/users/";
 const register = async (userData) => {
   // const response = await axios.post(API_URL, userData);
   const response = await axios.post(
-    "http://localhost:5000" + API_URL,
+    "https://weddingbackend.onrender.com" + API_URL,
     userData
   );
 
@@ -22,7 +22,7 @@ const register = async (userData) => {
 const login = async (userData) => {
   // const response = await axios.post(API_URL + 'login', userData);
   const response = await axios.post(
-    "http://localhost:5000" + API_URL + "login",
+    "https://weddingbackend.onrender.com" + API_URL + "login",
     userData
   );
 
