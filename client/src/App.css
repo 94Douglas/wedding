@@ -199,9 +199,27 @@ h5 {
   border: 1px solid black;
 }
 
+.card {
+  display: block;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
 .jc-center {
   margin: 0px auto;
-  /* float: right; */
+}
+
+.padding-right {
+  padding-right: 10px;
+}
+.padding-left {
+  padding-right: 10px;
 }
 
 .flex-end {
