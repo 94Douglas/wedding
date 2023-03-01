@@ -10,9 +10,7 @@ const Home = () => {
           <div className="header">
             <Header />
             <div className="main-container">
-              <div className="main-inner-container">
-                <h1>INFORMATION</h1>
-              </div>
+              <div className="main-inner-container"></div>
             </div>
           </div>
         </div>
