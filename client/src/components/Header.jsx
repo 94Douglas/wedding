@@ -20,7 +20,7 @@ function Header() {
   return (
     <div className="center">
       {/* <h1 className="name">Douglas & Lisa Vigsel 2023</h1> */}
-      <h1 className="name">🤍 Vigseln Mellan Lisa & Douglas 💙</h1>
+      <h1 className="name">🤍 Vigseln Mellan Lisa & Douglas 🤍</h1>
     </div>
   );
 }
