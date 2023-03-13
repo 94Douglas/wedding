@@ -60,6 +60,18 @@ function Information() {
               <p className="card-text">Sommarfin</p>
             </div>
           </div>
+          <div className="card jc-center mb-5 width-fit">
+            <h4 className="heart-position">💙</h4>
+
+            <div className="card-body center">
+              <h5 className="card-title ">Önskelista</h5>
+              <p className="card-text">Er närvaro är allt vi önskar.</p>
+              <p className="card-text">
+                Men vill ni ändå uppmärksamma vår dag med en gåva uppskattar vi
+                ett bidrag till vår bröllopsresa
+              </p>
+            </div>
+          </div>
         </div>
         <div className="f-right padding-right">
           <div className="card jc-center mb-5 width-fit">
