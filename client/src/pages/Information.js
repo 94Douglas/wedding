@@ -70,18 +70,15 @@ function Information() {
               <p className="card-text">
                 Stugor finns att hyra på Stenungsögården, det erbjuds också
                 ställplatser med el.
-                <br />
+              </p>
+              <p className="card-text">
                 För att säkra en sovplats, måste ni meddela Stenungsögården. Ni
                 kan nå dom på telefonnummer: 0303-77 00 80 eller mail:
-                koket@stenungsogarden.se
+                koket@stenungsogarden.se Meddela senast 14 april att ni vill
+                boka en stuga till Lisa & Douglas bröllop.
                 <br />
-                <br />
-                Meddela senast 14 april att ni vill boka en stuga till Lisa &
-                Douglas bröllop.
-                <br />
-                Priser för stugor varierar från 900kr - 1400kr per natt.
-                <br />
-                Priser för ställplats varierar från 350kr - 400kr
+                Priser för stugor varierar från 900kr - 1400kr per natt. Priser
+                för ställplats varierar från 350kr - 400kr
               </p>
             </div>
           </div>
@@ -94,14 +91,10 @@ function Information() {
               <p className="card-text">
                 Önskar man håll tal, sjunga, dansa eller arrangera en
                 överraskning hör av er till vår Toastmaster Niklas på
-                <br />
-                <br />
-                Email: niklas85wow@outlook.com
-                <br />
-                Eller smsa
-                <br />
-                Nummer: 076-170 65 78
               </p>
+              <p className="card-text">Email: niklas85wow@outlook.com</p>
+              <p className="card-text">Eller smsa</p>
+              <p className="card-text">Nummer: 076-170 65 78</p>
             </div>
           </div>
           <div className="card jc-center mb-5 width-fit">
@@ -112,17 +105,15 @@ function Information() {
               <p className="card-text">
                 Vi tycker väldigt mycket om era barn, men en dag som denna tror
                 vi att de har det roligare hos sina barnvakter
-                <br />
-                <br />
-                OSA senast 23 juni
-                <br />
-                Till lisa: 0762229148 eller Douglas: 0721572271
+              </p>
+              <p className="card-text">OSA senast 23 juni</p>
+              <p className="card-text">
+                Till Lisa: 0762229148 eller Douglas: 0721572271
               </p>
             </div>
           </div>
         </div>
       </div>
-      {/* </div> */}
     </div>
   );
 }
