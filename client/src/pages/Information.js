@@ -86,8 +86,8 @@ function Information() {
               <p className="card-text">
                 För att säkra en sovplats, måste ni meddela Stenungsögården. Ni
                 kan nå dom på telefonnummer: 0303-77 00 80 eller mail:
-                koket@stenungsogarden.se Meddela senast 14 april att ni vill
-                boka en stuga till Lisa & Douglas bröllop.
+                info@stenungsogarden.se Meddela senast 14 april att ni vill boka
+                en stuga till Lisa & Douglas bröllop.
                 <br />
                 Priser för stugor varierar från 900kr - 1400kr per natt. Priser
                 för ställplats varierar från 350kr - 400kr
